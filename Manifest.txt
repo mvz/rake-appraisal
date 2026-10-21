@@ -1,0 +1,6 @@
+lib/rake/appraisal.rb
+lib/rake/appraisal/task.rb
+lib/rake/appraisal/version.rb
+LICENSE.txt
+CHANGELOG.md
+README.md

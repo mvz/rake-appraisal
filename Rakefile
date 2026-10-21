@@ -2,11 +2,13 @@
 
 require "bundler/gem_tasks"
 require "rspec/core/rake_task"
+require "rubocop/rake_task"
+require "rake/manifest"
 
 RSpec::Core::RakeTask.new(:spec)
-
-require "rubocop/rake_task"
-
 RuboCop::RakeTask.new
+Rake::Manifest::Task.new do |t|
+  t.patterns = ["lib/**/*", "LICENSE.txt", "*.md"]
+end
 
-task default: %i[spec rubocop]
+task default: %i[spec rubocop manifest:check]
