@@ -1,6 +1,10 @@
 AllCops:
   TargetRubyVersion: 3.2
 
+# Be lenient with line length
+Layout/LineLength:
+  Max: 92
+
 Style/StringLiterals:
   EnforcedStyle: double_quotes
 
