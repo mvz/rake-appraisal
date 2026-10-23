@@ -22,7 +22,7 @@ $ bundle install
 After installation, add something like the following to your `Rakefile`:
 
 ```ruby
-require "rake/manifest"
+require "rake/appraisal"
 
 # Set up appraisal check task
 Rake::Appraisal::Task.new
