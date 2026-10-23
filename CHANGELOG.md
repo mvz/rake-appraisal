@@ -1,5 +1,9 @@
-## [Unreleased]
+# Changelog
 
-## [0.1.0] - 2026-10-21
+## 0.1.1 - 2026-10-23
 
-- Initial release
+* Fix issues that made the rake task unusable
+
+## 0.1.0 - 2026-10-21
+
+* Initial release
